@@ -1,0 +1,15 @@
+/* Selector de atributo */
+[class^='icon-'], [class*=' icon-']{
+  inline-size: 50px;
+  block-size: 50px;
+  background-size: cover;
+  display: inline-block;
+}
+
+.icon-home {
+  background-image: url('../icons/home.svg');
+}
+
+.icon-home-active{
+  background-image: url('../icons/home-active.svg');
+}
