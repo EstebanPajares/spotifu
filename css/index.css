@@ -1,5 +1,7 @@
 @import './icons.css';
 @import './fonts.css';
+@import './body.css';
+@import './link.css';
 
 /* Creando nuestras variables / colores y fuentes */
 :root{
@@ -17,21 +19,4 @@
   --baseFont: normal .875rem/1.375rem var(--basefontFamily);
   --baseFontBold: bold .875rem/1.375rem var(--basefontFamily);
   --button: normal .75em/normal var(--basefontFamily);
-}
-
-body{
-  background: var(--primaryColor);
-  font-family: var(--basefontFamily);
-}
-
-button{
-  font-size: 40px;
-  color: blue;
-}
-
-button:hover{
-  font-size: 100px;
-  color: var(--white);
-  background: var(--primaryColor);
-  border-color: transparent;
 }
