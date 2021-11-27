@@ -1,0 +1,10 @@
+.logo {
+  padding-inline-start: 1rem;
+  /* padding-block-end: 1.5rem; */
+  scroll-padding-inline-end: 1rem;
+}
+
+.logo-image {
+  inline-size: 7rem;
+  block-size: 2rem;
+}

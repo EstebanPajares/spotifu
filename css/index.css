@@ -3,6 +3,7 @@
 @import './body.css';
 @import './link.css';
 @import './button-icon.css';
+@import './logo.css';
 
 /* Creando nuestras variables / colores y fuentes */
 :root{
