@@ -5,6 +5,7 @@
 @import './button-icon.css';
 @import './logo.css';
 @import './list.css';
+@import './menu.css';
 
 /* Creando nuestras variables / colores y fuentes */
 :root{

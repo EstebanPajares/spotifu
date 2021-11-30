@@ -8,11 +8,35 @@
   <title>Spotifu</title>
 </head>
 <body class="body">
-  <header class="logo" role="banner">
+  <header class="logo" ><!-- role="banner" // usar cuando usas un div-->
     <a href="#" aria-current="page">
       <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
     </a>
   </header>
+  <nav class="menu" aria-label="Principal">
+    <ul class="menu-list">
+      <li class="menuItem is-active">
+        <a href="#" class="link" aria-current="page">
+          <i class="icon-home" aria-hidden="true"></i>
+          <span>Inicio</span>
+        </a>
+      </li>
+      <li class="menuItem">
+        <a href="#" class="link" aria-current="page">
+          <i class="icon-search" aria-hidden="true"></i>
+          <span>Buscar</span>
+        </a>
+      </li>
+      <li class="menuItem">
+        <a href="#" class="link" aria-current="page">
+          <i class="icon-creditCard" aria-hidden="true"></i>
+          <span>Premium</span>
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
   <nav class="list" aria-labelledby="library-navigation">
     <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2>
     <ul class="list-content">
