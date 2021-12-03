@@ -8,5 +8,6 @@
   flex-direction: column;
   gap: 1.5rem;
   padding-block-start: 1.5rem;
-  scroll-padding-block-end: 1.5rem;
+  padding-block-end: 1.5rem;
+  inline-size: 12.5rem;
 }
