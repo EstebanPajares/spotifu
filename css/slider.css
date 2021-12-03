@@ -1,6 +1,6 @@
 .slider {
   inline-size: 200px;/* Temporal */
-  background: rgba(255, 255, 255, .20);
+  background: rgba(255, 255, 255, .2);
   block-size: .25rem;
   border-radius: .5rem;
 }
@@ -25,14 +25,14 @@
   background: var(--white);
   padding: 0;
   border: 0;
+
   block-size: 200%; /* Con relacion al contenedor padre */
-  aspect-ratio: 1/1; /* inline-size 200% */
+  aspect-ratio: 1/1; /* Que sea cuadrado */ /* Inline-size:.5rem */
   border-radius: 50%;
 
   position: absolute;
   left: 100%; /* Donde acaba el padre */
   top: 50%;
-
   transform: translate(-50%,-50%); /* Referencia al mismo elemento */
   display: none;
 
