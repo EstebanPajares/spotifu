@@ -5,6 +5,7 @@
 @import './button-icon.css';
 @import './sidebar.css';
 @import './ellipsis.css';
+@import './slider.css';
 
 /* Creando nuestras variables / colores y fuentes */
 :root{
