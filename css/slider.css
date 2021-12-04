@@ -1,5 +1,5 @@
 .slider {
-  inline-size: 200px;/* Temporal */
+  /* inline-size: 200px; */
   background: rgba(255, 255, 255, .2);
   block-size: .25rem;
   border-radius: .5rem;
