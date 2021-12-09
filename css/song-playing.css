@@ -1,0 +1,29 @@
+.songPlaying {
+  /* border: 1px solid red; */
+  display: flex;
+  gap: .5rem;
+}
+.songPlaying-cover img{
+  inline-size: 3.5rem ;
+  block-size: 3.5rem ;
+  vertical-align: middle;
+}
+
+.songPlaying-details {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.songPlaying-title {
+  color: var(--white);
+  font: var(--baseFontBold);
+  text-decoration: none;
+  display: block;
+}
+
+.songPlaying-artist {
+  color: var(--gray10);
+  font: var(--small);
+  text-decoration: none;
+}
