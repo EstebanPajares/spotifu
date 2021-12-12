@@ -19,6 +19,8 @@
 
 .playlistA-cover img{
   vertical-align: middle;
+  inline-size: 9.375rem; /* 100% */
+  block-size: 9.375rem; /* auto */
   /* border-radius: .75rem; */
 
 }
