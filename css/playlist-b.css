@@ -5,6 +5,7 @@
   overflow: hidden;
   background: rgba(255, 255, 255, .1);
   transition: .3s background;
+  /* flex-shrink: 0; */
 }
 
 .playlistB:hover, .playlistB:focus-within {
