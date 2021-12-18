@@ -34,18 +34,22 @@
 </head>
 <body class="body">
   <br><small>Alert! Proyecto en desarrollo . . .</small></br>
-  <div class="navigation">
-    <button class="navigation-prev" aria-label="Volver" title="Volver">
-      <i class="icon-arrowLeft" aria-hidden="true"></i>
-    </button>
-    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
-      <i class="icon-arrowRight" aria-hidden="true"></i>
-    </button>
+  <div class="sticky">
+    <header class="header" aria-label="Barra superior y menú del usuario">
+      <div class="navigation">
+        <button class="navigation-prev" aria-label="Volver" title="Volver">
+          <i class="icon-arrowLeft" aria-hidden="true"></i>
+        </button>
+        <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+          <i class="icon-arrowRight" aria-hidden="true"></i>
+        </button>
+      </div>
+      <form class="search" action="" role="search" aria-label="Buscar por Artistas, Canciones o Podcast">
+        <i class="icon-search" aria-hidden="true"></i>
+          <input id="search" type="search" placeholder="Buscar por Artistas, Canciones o Podcast">
+      </form>
+    </header>
   </div>
-  <form class="search" action="" role="search" aria-label="Buscar por Artistas, Canciones o Podcast">
-    <i class="icon-search" aria-hidden="true"></i>
-      <input id="search" type="search" placeholder="Buscar por Artistas, Canciones o Podcast">
-  </form>
   <section class="playlistList" aria-labelledby="region1">
     <div class="playlistList-top">
       <h2 class="playlistList-title" id="region1">
@@ -366,7 +370,7 @@
         <div class="songPlaying-details">
           <div class="songPlaying-description">
             <a href="#song" class="songPlaying-title">No Te Rindas</a>
-            <a href="#artist" class="songPlaying-artist">Leonidas Esteban & Cafe con Tech</a>
+            <a href="#artist" class="songPlaying-artist">Podcast-Leonidas Esteban</a>
           </div>
           <div class="songPlaying-action">
             <button class="player-control" role="switch" aria-label="Guardar en tu biblioteca"
