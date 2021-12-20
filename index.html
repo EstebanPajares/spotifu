@@ -33,6 +33,99 @@
 
 </head>
 <body class="body">
+  <div class="sidebar">
+    <header class="logo">
+      <!-- role="banner" // usar con un div-->
+      <a href="/" aria-current="page">
+        <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
+      </a>
+    </header>
+    <nav class="menu" aria-label="Principal">
+      <ul class="menu-list">
+        <li class="menuItem is-active">
+          <a href="/" class="link" aria-current="page">
+            <i class="icon-home" aria-hidden="true"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <li class="menuItem">
+          <a href="/" class="link" aria-current="page">
+            <i class="icon-search" aria-hidden="true"></i>
+            <span>Buscar</span>
+          </a>
+        </li>
+        <li class="menuItem">
+          <a href="/" class="link" aria-current="page">
+            <i class="icon-creditCard" aria-hidden="true"></i>
+            <span>Premium</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="list" aria-labelledby="library-navigation">
+      <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2>
+      <ul class="list-content">
+        <li class="list-item">
+          <a href="" class="link">Creada para ti</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Escuchado recientemente</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Lo mejor de lo mejor</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Tus Me Gusta</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="list" aria-labelledby="playlist-navigation">
+      <h2 class="list-title" id="playlist-navigation">Playlist</h2>
+      <ul class="list-content">
+        <li class="list-item">
+          <a href="" class="link">No te rindas - Leonidas Esteban</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">El aventurero - Josimar y su Yambú</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">A lo Perucho - Josimar y su Yambú</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Live in Perú - Tony Succar</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Solo un momento - Vicentico</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">One Love - Bob Marley</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Viva Latino - Rosalía</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Raywana - Fidelius</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Degeneración - Pedro Suárez</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Vivi en Do - Dread Mar I</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Cumbia Peruana - Grupo 5</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="link">Sinfónico - Antología</a>
+        </li>
+        <li class="list-item">
+          <span class="ellipsis">
+            <a href="" class="link">Las más populares de la semana para developers</a>
+          </span>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <div class="page">
     <div class="sticky">
       <div class="page-block">
@@ -56,7 +149,7 @@
       <section class="playlistList" aria-labelledby="region1">
         <div class="playlistList-top">
           <h2 class="playlistList-title" id="region1">
-            Buenas noches
+            Creada para tí
           </h2>
           <div class="navigation">
             <button class="navigation-prev" aria-label="Volver" title="Volver">
@@ -70,12 +163,12 @@
         <div class="playlistList-container">
           <div class="playlistB">
             <div class="playlistB-cover">
-              <img src="./images/grupo5.png" width="76" height="76" alt="Cover de la playlist Cumbia Peruana  - El Grupo 5" title="Cover  de la playlist de Cumbia Peruana  - El Grupo 5">
+              <img src="./images/noterindas.png" width="76" height="76" alt="Cover de la playlist No Te Rindas - Leonidas Esteban" title="Cover  de la playlist de No Te Rindas - Leonidas Esteban">
             </div>
             <div class="playlistB-details">
-              <h3 class="playlistB-title">Cumbia Peruana  - El Grupo 5 </h3>
+              <h3 class="playlistB-title">No Te Rindas - Leonidas Esteban</h3>
               <div class="playlistB-control">
-                <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir Cover de la playlist Cumbia Peruana  - El Grupo 5">
+                <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir Cover de la playlist No Te Rindas - Leonidas Esteban">
                   <i class="icon-play" aria-hidden="true"></i>
                 </button>
               </div>
@@ -83,12 +176,12 @@
           </div>
           <div class="playlistB">
             <div class="playlistB-cover">
-              <img src="./images/el-aventurero.png" width="76" height="76" alt="Cover de la playlist El aventurero Josimar y su Yambú" title="Cover  de la playlist de El aventurero Josimar y su Yambú">
+              <img src="./images/clasicos-de-fogata.png" width="76" height="76" alt="Cover de la playlist Clásicos de Fogata" title="Cover  de la playlist de Clásicos de Fogata">
             </div>
             <div class="playlistB-details">
-              <h3 class="playlistB-title">El aventurero - Josimar</h3>
+              <h3 class="playlistB-title">Clásicos De Fogata</h3>
               <div class="playlistB-control">
-                <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir Cover de la playlist El aventurero Josimar y su Yambú">
+                <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir Cover de la playlist Clásicos de Fogata">
                   <i class="icon-play" aria-hidden="true"></i>
                 </button>
               </div>
@@ -291,13 +384,13 @@
         <div class="playlistList-container">
           <div class="playlistA">
             <div class="playlistA-cover">
-              <img src="./images/legends-bob-marley.png" width="150" height="150"  alt="Cover de la playlist A lo perucho" title="Cover de la playlist A lo perucho">
+              <img src="./images/pedro-degeneracion.png" width="150" height="150"  alt="Cover de la playlist Degeneración" title="Cover de la playlist Degeneración">
               <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
-            <h3 class="playlistA-title">Legends</h3>
-            <h4 class="playlistA-description">Bob Marley</h4>
+            <h3 class="playlistA-title">Degeneración</h3>
+            <h4 class="playlistA-description">Pedro Suarez Bertiz</h4>
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
@@ -311,143 +404,57 @@
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
-              <img src="./images/solounmomentoVicentico.png" width="150" height="150"  alt="Cover de la playlist Solo un momento" title="Cover de la playlist Solo un momento">
+              <img src="./images/chombo.png" width="150" height="150"  alt="Cover de la playlist Solo un momento" title="Cover de la playlist Solo un momento">
               <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
-            <h3 class="playlistA-title">Solo un momento</h3>
-            <h4 class="playlistA-description">Vicentico</h4>
+            <h3 class="playlistA-title">Cuentos De La Cripta</h3>
+            <h4 class="playlistA-description">El chombo</h4>
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
-              <img src="./images/one-love-bob.png" width="150" height="150"  alt="Cover de la playlist One Love - Bob Marley" title="Cover de la playlist One Love - Bob Marley">
+              <img src="./images/grupo5.png" width="150" height="150"  alt="Cover de la playlist Cumbia Peruana - Grupo 5" title="Cover de la playlist Cumbia Peruana - Grupo 5">
               <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
-            <h3 class="playlistA-title">One Love</h3>
-            <h4 class="playlistA-description">Bob Marley</h4>
+            <h3 class="playlistA-title">Cumbia Peruana</h3>
+            <h4 class="playlistA-description">Grupo 5</h4>
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
-              <img src="./images/viva-latino.png" width="150" height="150"  alt="Cover de la playlist Viva Latino" title="Cover de la playlist Viva Latino">
+              <img src="./images/el-aventurero.png" width="150" height="150"  alt="Cover de la playlist El aventurero" title="Cover de la playlist El aventurero">
               <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
-            <h3 class="playlistA-title">Viva Latino</h3>
-            <h4 class="playlistA-description">Rosalía</h4>
+            <h3 class="playlistA-title">El aventurero</h3>
+            <h4 class="playlistA-description">Josimar y su Yambú</h4>
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
-              <img src="./images/vivir-en-do-dreadrarl.png" width="150" height="150"  alt="Cover de la playlist Vivi En Do" title="Cover de la playlist Vivi En Do">
+              <img src="./images/sinfonico-antologia.png" width="150" height="150"  alt="Cover de la playlist Sinfónico - Antología" title="Cover de la playlist Sinfónico - Antología">
               <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
-            <h3 class="playlistA-title">Vivi En Do</h3>
-            <h4 class="playlistA-description">Dread Mar I</h4>
+            <h3 class="playlistA-title">Sinfónico</h3>
+            <h4 class="playlistA-description">Antología</h4>
           </div>
           <div class="playlistA">
             <div class="playlistA-cover">
-              <img src="./images/salsa-nation-marc.png" width="150" height="150"  alt="Cover de la playlist Salsa Nation" title="Cover de la playlist Salsa Nation">
+              <img src="./images/pelo.png" width="150" height="150"  alt="Cover de la playlist Y Su Perú Colores" title="Cover de la playlist Y Su Perú Colores">
               <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                 <i class="icon-play" aria-hidden="true"></i>
               </button>
             </div>
-            <h3 class="playlistA-title">Salsa Nation</h3>
-            <h4 class="playlistA-description">Marc Anthony</h4>
+            <h3 class="playlistA-title">Y Su Perú Colores</h3>
+            <h4 class="playlistA-description">Pelo D'Ambrosio</h4>
           </div>
 
       </section>
     </main>
-  </div>
-  <div class="sidebar">
-    <header class="logo" ><!-- role="banner" // usar con un div-->
-      <a href="/" aria-current="page">
-        <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
-      </a>
-    </header>
-    <nav class="menu" aria-label="Principal">
-      <ul class="menu-list">
-        <li class="menuItem is-active">
-          <a href="/" class="link" aria-current="page">
-            <i class="icon-home" aria-hidden="true"></i>
-            <span>Inicio</span>
-          </a>
-        </li>
-        <li class="menuItem">
-          <a href="/" class="link" aria-current="page">
-            <i class="icon-search" aria-hidden="true"></i>
-            <span>Buscar</span>
-          </a>
-        </li>
-        <li class="menuItem">
-          <a href="/" class="link" aria-current="page">
-            <i class="icon-creditCard" aria-hidden="true"></i>
-            <span>Premium</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="list" aria-labelledby="library-navigation">
-      <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2>
-      <ul class="list-content">
-        <li class="list-item">
-          <a href="" class="link">Creada para ti</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">Escuchado recientemente</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">Tus Me Gusta</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="list" aria-labelledby="playlist-navigation">
-      <h2 class="list-title" id="playlist-navigation">Playlist</h2>
-      <ul class="list-content">
-        <li class="list-item">
-          <a href="" class="link">Cumbia Peruana - Grupo 5</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">El aventurero - Josimar y su Yambú</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">A lo Perucho - Josimar y su Yambú</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">Live in Perú - Tony Succar</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">Solo un momento - Vicentico</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">One Love - Bob Marley</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">Viva Latino - Rosalía</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">Raywana - Fidelius</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">Mis pistas de sashan</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">Vivi en Do - Dread Mar I</a>
-        </li>
-        <li class="list-item">
-          <a href="" class="link">No te rindas - Leonidas Esteban</a>
-        </li>
-        <li class="list-item">
-          <span class="ellipsis">
-            <a href="" class="link">Las más populares de la semana para developers</a>
-          </span>
-        </li>
-      </ul>
-    </nav>
   </div>
   <div class="player">
     <div class="player-songPlaying">
@@ -513,7 +520,5 @@
     </div>
 
   </div>
-
-  <br>
 </body>
 </html>
