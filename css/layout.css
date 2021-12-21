@@ -6,7 +6,6 @@
 }
 
 .layout {
-  box-shadow: inset 0 0 0 10px red;
   min-inline-size: var(--minInlineSize);
 }
 
@@ -19,7 +18,7 @@
 }
 
 .layout-main {
-  block-size: calc(100vh - var(--bottomSize)); /* 100% del alto */
+  block-size: calc(100vh - var(--bottomSize)); /* 100% del alto  - footer*/
   min-block-size: var(--minBlockSize);
   overflow: auto;
 }

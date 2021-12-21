@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 
-.ellipsis > * {
+.ellipsis a {
   display: block;
   white-space: nowrap;
   overflow: hidden;
