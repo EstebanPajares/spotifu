@@ -9,12 +9,17 @@
   min-inline-size: var(--minInlineSize);
 }
 
+.layout-block {
+  display: flex;
+}
+
 .layuout-sidebar {
   block-size: calc(100vh - var(--bottomSize));
   min-block-size: var(--minBlockSize);
   inline-size: var(--sidebarInlineSize);
   overflow: auto;
   flex-shrink: 0;
+  background: var(--gray60);
 }
 
 .layout-main {
@@ -28,6 +33,3 @@
   block-size: var(--bottomSize);
 }
 
-.layout-block {
-  display: flex;
-}
