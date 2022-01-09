@@ -16,8 +16,10 @@
 .playlistB-details {
   display: flex;
   padding: .5rem;
-  gap: .5rem;
+  gap: 1rem;
   align-items: center;
+  flex: 1;
+  justify-content: space-between;
 }
 .playlistB-cover img {
   vertical-align: middle;
