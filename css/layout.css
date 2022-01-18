@@ -1,16 +1,12 @@
 :root {
-  --sidebarInlineSize: 15rem;
+  --sidebarInlineSize: 15rem; /* 240px */
   --minBlockSize: 37.5rem; /* 600px */
   --minInlineSize: 48rem; /* 768px */
-  --bottomSize: 5.5rem;
+  --bottomSize: 5.5rem; /* 88px */
 }
 
 .layout {
   min-inline-size: var(--minInlineSize);
-}
-
-.layout-block {
-  display: flex;
 }
 
 .layuout-sidebar {
@@ -23,7 +19,7 @@
 }
 
 .layout-main {
-  block-size: calc(100vh - var(--bottomSize)); /* 100% del alto  - footer*/
+  block-size: calc(100vh - var(--bottomSize)); /* 100% del alto del aria visible  - footer*/
   min-block-size: var(--minBlockSize);
   overflow: auto;
 }
@@ -33,3 +29,6 @@
   block-size: var(--bottomSize);
 }
 
+.layout-block {
+  display: flex;
+}
