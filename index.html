@@ -69,16 +69,16 @@
             <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2>
             <ul class="list-content">
               <li class="list-item">
-                <a href="" class="link">Creada para ti</a>
+                <a href="#region1" class="link">Creada para ti</a>
               </li>
               <li class="list-item">
-                <a href="" class="link">Escuchado recientemente</a>
+                <a href="#region2" class="link">Escuchado recientemente</a>
               </li>
               <li class="list-item">
-                <a href="" class="link">Lo mejor de lo mejor</a>
+                <a href="#region3" class="link">Lo mejor de lo mejor</a>
               </li>
               <li class="list-item">
-                <a href="" class="link">Tus Me Gusta</a>
+                <a href="#region4" class="link">Tus Me Gusta</a>
               </li>
             </ul>
           </nav>
@@ -147,6 +147,17 @@
                   <i class="icon-search" aria-hidden="true"></i>
                     <input type="search" placeholder="Buscar por Artistas, Canciones o Podcast">
                 </form>
+                <div class="userActive">
+                  <div class="perfil">
+                    <img class="perfilUser" src="./images/perfil.png" width="28" height="28" alt="Foto de Perfil de Esteban Pajares" title="Foto de perfil de Esteban Pajares">
+                  </div>
+                  <select class="session" name="session" aria-labelledby="Opciones de sesion de usuario">
+                    <option selected value="0">Esteban Pajares</option>
+                    <option value="1">Perfil</option>
+                    <option value="2">Cámbiate a Premium</option>
+                    <option value="3">Cerrar sesión</option>
+                  </select>
+                </div>
               </header>
             </div>
           </div>
@@ -484,8 +495,8 @@
             </section>
             <section class="playlistList" aria-labelledby="region4">
               <div class="playlistList-top">
-                <h2 class="playlistList-title" id="region4">
-                  Tus Me Gusta
+                <h2 class="playlistList-title" id="region3">
+                  Tus me gusta
                 </h2>
                 <div class="navigation">
                   <button class="navigation-prev" aria-label="Volver" title="Volver">
@@ -499,83 +510,86 @@
               <div class="playlistList-container">
                 <div class="playlistA">
                   <div class="playlistA-cover">
-                    <img src="./images/anime-hits.png" width="150" height="150"  alt="Cover de Naruto, Your Name, Weathing With You de Anime Hits " title="Cover de Naruto, Your Name, Weathing With You de Anime Hits ">
+                    <img src="./images/pelo.png" width="150" height="150"  alt="Cover de la playlist Y Su Perú Colores" title="Cover de la playlist Y Su Perú Colores">
                     <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                       <i class="icon-play" aria-hidden="true"></i>
                     </button>
                   </div>
-                  <h3 class="playlistA-title">Anime Hits</h3>
-                  <h4 class="playlistA-description">Naruto, Your Name, Weathing With You</h4>
+                  <h3 class="playlistA-title">Y Su Perú Colores</h3>
+                  <h4 class="playlistA-description">Pelo D'Ambrosio</h4>
                 </div>
                 <div class="playlistA">
                   <div class="playlistA-cover">
-                    <img src="./images/anime-hits.png" width="150" height="150"  alt="Cover de Naruto, Your Name, Weathing With You de Anime Hits " title="Cover de Naruto, Your Name, Weathing With You de Anime Hits ">
+                    <img src="./images/sinfonico-antologia.png" width="150" height="150"
+                      alt="Cover de la playlist Sinfónico - Antología" title="Cover de la playlist Sinfónico - Antología">
                     <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                       <i class="icon-play" aria-hidden="true"></i>
                     </button>
                   </div>
-                  <h3 class="playlistA-title">Anime Hits</h3>
-                  <h4 class="playlistA-description">Naruto, Your Name, Weathing With You</h4>
+                  <h3 class="playlistA-title">Sinfónico</h3>
+                  <h4 class="playlistA-description">Antología</h4>
                 </div>
                 <div class="playlistA">
                   <div class="playlistA-cover">
-                    <img src="./images/anime-hits.png" width="150" height="150"  alt="Cover de Naruto, Your Name, Weathing With You de Anime Hits " title="Cover de Naruto, Your Name, Weathing With You de Anime Hits ">
+                    <img src="./images/tony-succar.png" width="150" height="150"  alt="Cover de la playlist Live in Perú" title="Cover de la playlist Live in Perú">
                     <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                       <i class="icon-play" aria-hidden="true"></i>
                     </button>
                   </div>
-                  <h3 class="playlistA-title">Anime Hits</h3>
-                  <h4 class="playlistA-description">Naruto, Your Name, Weathing With You</h4>
+                  <h3 class="playlistA-title">Live in Perú</h3>
+                  <h4 class="playlistA-description">Tony Succar</h4>
                 </div>
                 <div class="playlistA">
                   <div class="playlistA-cover">
-                    <img src="./images/anime-hits.png" width="150" height="150"  alt="Cover de Naruto, Your Name, Weathing With You de Anime Hits " title="Cover de Naruto, Your Name, Weathing With You de Anime Hits ">
+                    <img src="./images/grupo5.png" width="150" height="150" alt="Cover de la playlist Cumbia Peruana - Grupo 5"
+                      title="Cover de la playlist Cumbia Peruana - Grupo 5">
                     <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                       <i class="icon-play" aria-hidden="true"></i>
                     </button>
                   </div>
-                  <h3 class="playlistA-title">Anime Hits</h3>
-                  <h4 class="playlistA-description">Naruto, Your Name, Weathing With You</h4>
+                  <h3 class="playlistA-title">Cumbia Peruana</h3>
+                  <h4 class="playlistA-description">Grupo 5</h4>
                 </div>
                 <div class="playlistA">
                   <div class="playlistA-cover">
-                    <img src="./images/anime-hits.png" width="150" height="150"  alt="Cover de Naruto, Your Name, Weathing With You de Anime Hits " title="Cover de Naruto, Your Name, Weathing With You de Anime Hits ">
+                    <img src="./images/chombo.png" width="150" height="150"  alt="Cover de la playlist Solo un momento" title="Cover de la playlist Solo un momento">
                     <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                       <i class="icon-play" aria-hidden="true"></i>
                     </button>
                   </div>
-                  <h3 class="playlistA-title">Anime Hits</h3>
-                  <h4 class="playlistA-description">Naruto, Your Name, Weathing With You</h4>
+                  <h3 class="playlistA-title">Cuentos De La Cripta</h3>
+                  <h4 class="playlistA-description">El chombo</h4>
                 </div>
                 <div class="playlistA">
                   <div class="playlistA-cover">
-                    <img src="./images/anime-hits.png" width="150" height="150"  alt="Cover de Naruto, Your Name, Weathing With You de Anime Hits " title="Cover de Naruto, Your Name, Weathing With You de Anime Hits ">
+                    <img src="./images/el-aventurero.png" width="150" height="150"  alt="Cover de la playlist El aventurero" title="Cover de la playlist El aventurero">
                     <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                       <i class="icon-play" aria-hidden="true"></i>
                     </button>
                   </div>
-                  <h3 class="playlistA-title">Anime Hits</h3>
-                  <h4 class="playlistA-description">Naruto, Your Name, Weathing With You</h4>
+                  <h3 class="playlistA-title">El aventurero</h3>
+                  <h4 class="playlistA-description">Josimar y su Yambú</h4>
+                </div>
+
+                <div class="playlistA">
+                  <div class="playlistA-cover">
+                    <img src="./images/pedro-degeneracion.png" width="150" height="150"  alt="Cover de la playlist Degeneración Actual" title="Cover de la playlist Degeneración Actual">
+                    <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
+                      <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlistA-title">Degeneración Actual</h3>
+                  <h4 class="playlistA-description">Pedro Suarez Vértiz</h4>
                 </div>
                 <div class="playlistA">
                   <div class="playlistA-cover">
-                    <img src="./images/anime-hits.png" width="150" height="150"  alt="Cover de Naruto, Your Name, Weathing With You de Anime Hits " title="Cover de Naruto, Your Name, Weathing With You de Anime Hits ">
+                    <img src="./images/rockcito.png" width="150" height="150"  alt="Cover Rock legends & epic songs" title="Cover Rock legends & epic songs">
                     <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
                       <i class="icon-play" aria-hidden="true"></i>
                     </button>
                   </div>
-                  <h3 class="playlistA-title">Anime Hits</h3>
-                  <h4 class="playlistA-description">Naruto, Your Name, Weathing With You</h4>
-                </div>
-                <div class="playlistA">
-                  <div class="playlistA-cover">
-                    <img src="./images/anime-hits.png" width="150" height="150"  alt="Cover de Naruto, Your Name, Weathing With You de Anime Hits " title="Cover de Naruto, Your Name, Weathing With You de Anime Hits ">
-                    <button class="buttonIcon is-primaryColor" aria-label="Reproducir" title="Reproducir">
-                      <i class="icon-play" aria-hidden="true"></i>
-                    </button>
-                  </div>
-                  <h3 class="playlistA-title">Anime Hits</h3>
-                  <h4 class="playlistA-description">Naruto, Your Name, Weathing With You</h4>
+                  <h3 class="playlistA-title">Rock Classics</h3>
+                  <h4 class="playlistA-description">Rock legends & epic songs</h4>
                 </div>
             </section>
           </main>

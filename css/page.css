@@ -19,3 +19,47 @@
 .page .header {
   margin-block-end: .1rem;
 }
+
+.userActive{
+  display: flex;
+  position: relative;
+}
+
+.perfilUser{
+  position: absolute;
+  inline-size: 1.75rem;
+  block-size: 1.75rem;
+  border-radius: 50%;
+  left: .125rem;
+  top: .125rem;
+  bottom: .125rem;
+}
+
+.session{
+  border: none;
+  font: var(--baseFont);
+  block-size: 12.5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background: var(--gray60);
+  color: var(--white);
+  border-radius: 1rem;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  padding-inline-start: 2rem;
+  padding-block-start: .5rem;
+  padding-block-end: .5rem;
+  scroll-padding-inline-end: .5rem;
+}
+
+.session option:hover .session option{
+  background: var(--gray10);
+}
+
+.perfilUser:focus-within{
+
+}
+
+.session:focus-within{
+
+}
