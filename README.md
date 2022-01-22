@@ -1,6 +1,6 @@
 # spotifu
 
-Project spotifu, implemented from a design in Figma [Curso de Flexbox Layout y Componentes](https://leonidasesteban.com/cursos/flexbox-componentes)
+Project spotifu, implemented from a design in Figma: [course of Flexbox Layout and Components](https://leonidasesteban.com/cursos/flexbox-componentes)
 
 ## Desktop
 
@@ -8,7 +8,7 @@ Project spotifu, implemented from a design in Figma [Curso de Flexbox Layout y C
 
 ## Mobile
 
-![Spotifu on mobile](./images/spotifu-mobile.png)
+![Spotifu on mobile](./design/spotifu-mobile.png)
 
 
 ### Links
